@@ -62,7 +62,7 @@
                     class="outra-noticia-1-single">
                         <h3>informação de noticia</h3>
                     </div>
-                    <div style="background-image: url('https://static1.purepeople.com.br/articles/2/24/74/52/@/2824172-veja-7-famosas-que-expoe-opinioes-e-reba-580x0-3.jpg');" 
+                    <div id='1' style="background-image: url('https://static1.purepeople.com.br/articles/2/24/74/52/@/2824172-veja-7-famosas-que-expoe-opinioes-e-reba-580x0-3.jpg');" 
                     class="outra-noticia-1-single">
                         <h3>informação de noticia</h3>
                     </div>
@@ -73,20 +73,20 @@
         <section class = "noticias-1">
             <div class="center">
                 <div class="noticias-wraper-1">
-                    <div class="outras-noticias-2">
+                    <div id='2' class="outras-noticias-2">
                         <div style="background-image: url('https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png');" 
                         class="outra-noticia-2-single">
                             <h3>informação de noticia</h3>
                         </div>
-                        <div style="background-image: url('https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png');" 
+                        <div id='3' style="background-image: url('https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png');" 
                         class="outra-noticia-2-single">
                             <h3>informação de noticia</h3>
                         </div>
-                        <div style="background-image: url('https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png');" 
+                        <div id='4' style="background-image: url('https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png');" 
                         class="outra-noticia-2-single">
                             <h3>informação de noticia</h3>
                         </div>
-                        <div style="background-image: url('https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png');" 
+                        <div id='5' style="background-image: url('https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png');" 
                         class="outra-noticia-2-single">
                             <h3>informação de noticia</h3>
                         </div>
@@ -98,13 +98,29 @@
             let noticia = document.querySelector(".noticia-destaque-single");
             noticia.addEventListener("click",()=>{
                 window.location.href="https://youtube.com";
+                
             });
 
-            let noticias2 = document.querySelector(".outra-noticia-2-single");
-       
+            let noticias2 = document.getElementById("2");       
             noticias2.addEventListener("click",()=>{
                 window.location.href="https://youtube.com";
             });
+
+            let noticias3 = document.getElementById("3");       
+            noticias3.addEventListener("click",()=>{
+                window.location.href="https://youtube.com";
+            });
+
+            let noticias4 = document.getElementById("4");       
+            noticias4.addEventListener("click",()=>{
+                window.location.href="https://youtube.com";
+            });
+
+            let noticias5 = document.getElementById("5");       
+            noticias5.addEventListener("click",()=>{
+                window.location.href="https://youtube.com";
+            });
+
        </script>
 </body>
 </html>
