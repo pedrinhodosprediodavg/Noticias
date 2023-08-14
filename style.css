@@ -94,6 +94,7 @@ header h2{
 }
 
 .noticia-destaque-single{
+    cursor: pointer;
     left: 0;
     top: 0;
     position: absolute;
