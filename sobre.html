@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="about-header">
+                <p>Site feito por Pedro</p>
+            </div>
+            <div class="wraper-header">
+                <div class="logo">
+                    <h2><span>Fofoca</span>iada</h2>
+                </div>
+                <div style = "background-image: url('https://observatoriodatv.uol.com.br/wp-content/uploads/2017/01/fofocalizandos.jpg');" class="banner-ads">
+                    <!--<h2><span style = "font-size: 23px;">Fofocaiada</span><br/>Insira um anúncio aqui</h2>-->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--dividir aqui-->
+    <div class="center">
+        <div class="menu-main">
+            <a id= "home" href="#">Home</a>
+            <a href="#">Noticias</a>
+            <a id="sobre" href="#">Sobre</a>
+            <a id="contato" href="#">Contato</a>
+        </div>
+    </div>
+
+    <section class = "noticias-1">
+        <div class="center">
+            <div class="noticias-wraper-1">
+                <div class="noticia-destaque">
+                    <div id="1" class="noticia-destaque-single">
+                        <h1>Sobre nós</h1>
+                        <h3>somos uma empresa de sucesso hehehe</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <script>
+            let home = document.getElementById("home");       
+            home.addEventListener("click",()=>{
+                window.location.href="index.html";
+            });
+       </script>
+</body>
+</html>
