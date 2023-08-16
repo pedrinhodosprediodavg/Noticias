@@ -87,7 +87,7 @@ header h2{
 
 .noticia-destaque{
     width: 60%;
-    padding-top: 80%;
+    padding-top: 65%;
     background-color: #222;
     border: 2px solid white;
     position: relative;
@@ -106,7 +106,7 @@ header h2{
 .noticia-destaque-single h1{
     font-size: 125px;
     padding: 10px;
-    color: white;
+    color: #1E90FF;
 }
 
 .noticia-destaque-single h3{
