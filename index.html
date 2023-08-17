@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <div class="center">
             <div class="about-header">
@@ -23,12 +24,13 @@
         </div>
     </header>
     <!--dividir aqui-->
+
     <div class="center">
         <div class="menu-main">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">Noticias</a>
-            <a id="sobre" href="#">Sobre</a>
-            <a id="contatos" href="#">Contato</a>
+            <a id="sobre" href="sobre.html">Sobre</a>
+            <a id="contatos" href="contatos.html">Contato</a>
         </div>
     </div>
 
@@ -70,6 +72,7 @@
             </div>
         </div>
         <br/>
+
         <section class = "noticias-1">
             <div class="center">
                 <div class="noticias-wraper-1">
@@ -96,15 +99,6 @@
         </section>
 
         <script>
-            let sobre = document.getElementById("sobre");       
-            sobre.addEventListener("click",()=>{
-                window.location.href="sobre.html";
-            });
-            
-            let contatos = document.getElementById("contatos");
-            contatos.addEventListener("click", ()=>{
-                window.location.href="contatos.html";
-            })
 
             let noticia = document.querySelector(".noticia-destaque-single");
             noticia.addEventListener("click",()=>{
