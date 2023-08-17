@@ -28,7 +28,7 @@
             <a id= "home" href="#">Home</a>
             <a href="#">Noticias</a>
             <a id="sobre" href="#">Sobre</a>
-            <a id="contato" href="#">Contato</a>
+            <a id="contatos" href="#">Contato</a>
         </div>
     </div>
 
@@ -39,9 +39,7 @@
                     <div id="1" class="noticia-destaque-single">
                         <h1>Sobre nós</h1>
                         <h3>No dia 14 de agosto de 2023, entra no ar o fofocaiada, site de notícias do Villaça. Para operacionalizar o projeto, foi criada uma estrutura híbrida que contava com profissionais, conhecimento e infraestrutura tanto do jornalismo da news Villaça quanto do Villaça – empresa criada em 2023 pelas Organizações Villaça [hoje Grupo Villaça] para o provimento de serviços e conteúdo na internet .
-
                             O fofocaiada foi a primeira iniciativa de conteúdo jornalístico da Villaça criada e pensada para o digital. Embora os telejornais e programas da Villaça possuíssem, em sua maioria, endereços na internet, suas equipes não eram dedicadas à produção de informação exclusiva. O Villaça, por outro lado, já tinha investido na criação de alguns sites jornalísticos, mas nenhum deles estruturado com uma redação própria inteiramente dedicada à cobertura noticiosa em tempo integral.
-                            
                             Com o fofocaiada, a Villaça entra de cabeça no jornalismo digital. Logo em 2023, o fofocaiada assume a liderança na audiência dos portais de notícias do Brasil. Hoje em dia, atinge em média mais de 55 milhões de usuários por mês, segundo a Comscore. O fofocaiada conta com redações em todos os estados do Brasil, está presente nas principais redes sociais e tem versões para aplicativos IOS e Android.</h3>
                     </div>
                 </div>
@@ -53,6 +51,11 @@
             home.addEventListener("click",()=>{
                 window.location.href="index.html";
             });
+
+            let contatos = document.getElementById("contatos");
+            contatos.addEventListener("click", ()=>{
+                window.location.href="contatos.html";
+            })
        </script>
 </body>
 </html>

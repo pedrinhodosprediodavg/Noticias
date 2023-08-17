@@ -28,7 +28,7 @@
             <a href="#">Home</a>
             <a href="#">Noticias</a>
             <a id="sobre" href="#">Sobre</a>
-            <a id="contato" href="#">Contato</a>
+            <a id="contatos" href="#">Contato</a>
         </div>
     </div>
 
@@ -100,7 +100,11 @@
             sobre.addEventListener("click",()=>{
                 window.location.href="sobre.html";
             });
-
+            
+            let contatos = document.getElementById("contatos");
+            contatos.addEventListener("click", ()=>{
+                window.location.href="contatos.html";
+            })
 
             let noticia = document.querySelector(".noticia-destaque-single");
             noticia.addEventListener("click",()=>{
